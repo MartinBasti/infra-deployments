@@ -7,7 +7,7 @@ kind: Kustomization
 images:
   - name: quay.io/redhat-appstudio/integration-service
     newName: quay.io/martinbasti/stonesoup
-    newTag: integration-service-2
+    newTag: integration-service-6
 namespace: integration-service
 patches:
   - ./manager_resources_patch.yaml
